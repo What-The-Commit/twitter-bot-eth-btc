@@ -1,0 +1,12 @@
+name: daily-run
+on:
+  schedule:
+    - cron: '0 12 * * *'
+jobs:
+  cron:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Start tweeting
+        run: |
+          curl --request GET \
+          --url 'https://twitter-bot-eth-btc.vercel.app/api' \
