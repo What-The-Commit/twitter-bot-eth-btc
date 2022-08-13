@@ -1,0 +1,35 @@
+{
+  "name": "@wtc/twitter-bot-eth-btc",
+  "version": "1.0.0",
+  "description": "Twitter Bot posting ETH/BTC ratio daily",
+  "main": "api/index.ts",
+  "scripts": {
+    "start": "vercel dev",
+    "deploy": "vercel deploy --prod"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/What-The-Commit/twitter-bot-eth-btc.git"
+  },
+  "keywords": [
+    "twitter",
+    "bot",
+    "ethereum",
+    "bitcoin",
+    "web3",
+    "serverless"
+  ],
+  "author": "Kevin Mauel | tony-stark.eth | What The Commit",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/What-The-Commit/twitter-bot-eth-btc/issues"
+  },
+  "homepage": "https://github.com/What-The-Commit/twitter-bot-eth-btc#readme",
+  "devDependencies": {
+    "vercel": "19.2.0"
+  },
+  "dependencies": {
+    "node-fetch": "^2.6.7",
+    "twitter-api-v2": "1.12.3"
+  }
+}
